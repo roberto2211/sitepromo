@@ -1,0 +1,95 @@
+
+
+}
+nav ul
+{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}*
+nav li
+{
+  margin-right:15px;
+  margin-left: 15px
+}
+nav a
+{
+  font-size: 1em;
+    color:white;
+    padding-bottom: 10px;
+    background-color:rgb(50,60,80);
+    /*text-decoration:underline;*/
+    border-radius: 5px;
+
+}
+nav a:hover
+{
+
+    color: orange;
+
+    border-bottom: 3px solid #760001;
+
+}
+h2{
+    margin: 0;     
+    color: white;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+
+.item{
+    background: white;    
+    text-align: center;
+    height: 600px;
+    background-color: #2998cd; 
+}
+
+.carousel{
+    margin-top: 0px;
+    
+}
+
+.carousel.carousel-fade .item {
+  opacity:0;
+  filter: alpha(opacity=0); /* ie fix */
+}
+
+.carousel.carousel-fade .active.item {
+    opacity:1;
+    filter: alpha(opacity=100); /* ie fix */
+}
+
+
+  .bloc-touslesjeuxconcours {
+      background-color: #97d0d8;
+      color: #fff;
+      margin-bottom: 0 !important;
+  }
+  .bloc {
+      padding: 25px;
+      position: relative;
+      margin-bottom: 25px;
+  }
+body, .form-control {
+    font-family: 'Lato', sans-serif;
+
+}
+h1{
+    margin-bottom: 40px;
+}
+label {
+    color: #333;
+}
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+}
